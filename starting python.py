@@ -1,8 +1,8 @@
-def cm_to_m(cm): #define the conversion function
-    return cm / 1000
+def hrs_to_m(hrs): #define the conversion function
+    return  hrs * 60
     #ask the user for input 
-cm = float(input("Enter length in cm: "))
+hrs = float(input("Enter time in hours: "))
 #perform conversion
-m = cm_to_m(cm)
+m = hrs_to_m(hrs)
 #print output
-print(f"{cm}centimeters is equal to {m}meters.")
+print(f"{hrs}hours is equal to {m} minutes.")
